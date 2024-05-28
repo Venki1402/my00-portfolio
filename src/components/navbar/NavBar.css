@@ -1,10 +1,11 @@
 .navbar {
     height: 5rem;
     width: 100vw;
+    /* max-width: 75rem; */
     margin: 0 auto;
     padding: 1rem 4rem;
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
@@ -19,10 +20,21 @@
 
 .menu-bar {
     margin: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* width: 30%; */
+}
+
+.menu-bar-item {
+    /* margin: 1rem; */
+    margin: 1rem;
     cursor: pointer;
-    
+    color: white;
+}
+
+.menu-bar-item:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid yellow;
 }
